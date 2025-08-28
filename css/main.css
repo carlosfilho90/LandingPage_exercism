@@ -231,3 +231,56 @@ header {
     color: var(--primary);
 
 }
+
+
+.banner h1{
+    color: #ffffff;
+    font-size: 5em;
+    letter-spacing: 5px;
+    line-height: 0.9;
+    font-family: "Bauhaus 93";
+}
+
+.banner img{
+    max-width: 650px;
+    max-height: 650px;
+    width: 50%;
+    height: 50%;
+}
+
+.swiper .swiper-wrapper .swiper-slide .banner .right{
+    position: relative;
+    height: 100vh;
+    max-width: 450px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    z-index: 100;
+
+}
+
+.banner .right .description{
+    padding: 30px 60px 0 0;
+    color: #ffffff;
+}
+.banner .right .description li{
+    list-style: none;
+
+}
+
+.banner .right .description h4{
+    display: inline-block;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+.banner .right .trailer h2{
+    color: #ffffff;
+    
+}
+
+.banner .right iframe{
+    max-width: 450px;
+    max-height: 255px;
+
+}
