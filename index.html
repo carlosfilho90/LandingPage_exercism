@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nintendo| Gaming Website LandingPage</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -29,7 +30,7 @@
     </header>
     <div class="swiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" id="slide-1">
+            <div class="swiper-slide swiper-slide" id="slide-1">
                 <img src="./assets/img/super_mario_odyssey_dinosaur_4k.jpeg" alt="Super mario odyssey banner">
                 <div class="backscene"></div>
                 <div class="banner">
@@ -90,14 +91,74 @@
                     </div>
                 </div>
             </div>
-
+            <div class="swiper-slide" id="slide-2">
+                <img src="./assets/img/The-Legend-of-Zelda-Breath-of-the-Wild.jpeg" alt="The legend of Zelda breath of the Wild banner">
+                <div class="backscene"></div>
+                <div class="banner">
+                    <div class="left">
+                        <div class="features">
+                            <div class="rating">
+                                <span class="score">9.2</span>
+                                <div class="content">
+                                    <span class="subtitle">
+                                        M E T A S C O R E
+                                    </span>
+                                    <h4>Ótimo</h4>
+                                    <span>Sem reino. Sem memória. Após um sono de 100 anos, Link acorda sozinho num mundo do qual ele não se lembra mais. Agora, o lendário herói deve explorar perigosas terras vastas e recuperar sua memória antes que Hyrule se perca para sempre.</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <a href="https://www.nintendo.com/pt-br/store/products/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition-switch-2/?srsltid=AfmBOoohq8RP4Zx1IgroVz1dh-ROTtlW2x1NnCsrmADedvNtEH5tpgsj"
+                                    target="_blank" class="button">
+                                    <ion-icon name="add-circle-outline" id></ion-icon>
+                                </a>
+                                <div class="content">
+                                    <span class="subtitle">
+                                        Super Mario Odyssey
+                                    </span>
+                                    <h4>COMPRE AGORA</h4>
+                                    <span>Plataforma, Aventura, Ação</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>LINK</h1>
+                    </div>
+                    <img src="./assets/img/link.png" alt="Personagem LINK">
+                    <div class="right">
+                        <ul class="description">
+                            <li>
+                                <h4>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    Data de lançamento
+                                </h4>
+                                <p>27 de outubro de 2017</p>
+                            </li>
+                            <li>
+                                <h4>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    Modos de Jogo
+                                </h4>
+                                <p>Modo TV, Modo semiportátil, Modo Portátil</p>
+                            </li>
+                        </ul>
+                        <div class="trailer">
+                            <h2>Assista ao trailer !</h2>
+                            <iframe src="https://www.youtube.com/embed/5kcdRBHM7kM" frameborder="0" width="1280"
+                                height="720" title="Super Mario Odyssey - Nintendo Switch Presentation"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="./js/app.js"></script>
 </body>
 
 </html>
